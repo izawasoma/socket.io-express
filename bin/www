@@ -7,9 +7,9 @@
 var app = require('../app');
 //var debug = require('debug')('socket.io-express-generator:server');
 var debug = require('debug')('express-ws-ejs:server');
-var chat = require('../routes/socketIO');
+//var chat = require('../routes/socketIO');
 var http = require('http');
-const socketIO = require('../routes/socketIO');
+const socketIO = require('../socketIO/socketIO');
 
 /**
  * Get port from environment and store in Express.
